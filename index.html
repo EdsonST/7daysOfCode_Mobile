@@ -7,14 +7,169 @@
     <title>Agenda Médica</title>
   </head>
   <body>
+    <nav class="menu">
+      <ul class="menu_list">
+        <li class="menu_item">
+          <a href="#"><img src="./Assets/Consultas.svg" alt="consultas" /></a>
+        </li>
+        <li class="menu_item">
+          <a href="#"><img src="./Assets/clientes.svg" alt="clientes" /></a>
+        </li>
+        <li class="menu_item">
+          <a href="#"><img src="./Assets/relatórios.svg" alt="relatórios" /></a>
+        </li>
+        <li class="menu_item">
+          <a href="#"><img src="./Assets/menu.svg" alt="menu" /></a>
+        </li>
+      </ul>
+    </nav>
+    <input type="checkbox" id="plus" hidden />
+    <label for="plus" class="plus">+</label>
+    <div id="plusContainer">
+      <div class="btn-wrapper btn1">
+        <span class="btn-label">Nova consulta na casa do paciente</span>
+        <button class="sub-btn">
+          <img src="./Assets/pinwhite.svg" alt="location" />
+        </button>
+      </div>
+
+      <div class="btn-wrapper btn2">
+        <span class="btn-label">Nova consulta por vídeo</span>
+        <button class="sub-btn">
+          <img src="./Assets/camerawhite.svg" alt="video" />
+        </button>
+      </div>
+    </div>
     <header>
       <img class="main_user" src="./Assets/draSonia.svg" />
       <section class="header_box">
-        <h2 class="gretting">Olá, Sônia</h2>
+        <h2 class="gretting">Olá, Dr. Sônia</h2>
         <p class="gretting_text">Mais 4 consultas hoje</p>
       </section>
     </header>
-    <div class="today">Hoje</div>
-    <main></main>
+    <h2 class="day">Hoje</h2>
+    <div class="main_today">
+      <section class="box_pacient">
+        <img src="./Assets/perfil-2.svg" alt="pacient" class="pacient_img" />
+        <section class="pacient_data">
+          <h3 class="pacient_name">Luciana Dias</h3>
+          <p class="consulta_type">
+            <img
+              src="./Assets/Camera.svg"
+              alt="camera"
+              class="type_img"
+            />Consulta remota
+          </p>
+        </section>
+        <img src="./Assets/Chatcirculo1.svg" alt="chatbox" />
+      </section>
+      <section class="answer_buttons">
+        <h3 class="time">14:00 - 15:00 (1 hora)</h3>
+        <section class="buttons">
+          <a href="#" class="answer_video">Ligar por vídeo</a>
+          <a href="#" class="answer_audio">Ligar por áudio</a>
+        </section>
+      </section>
+      <section class="box_pacient">
+        <img src="./Assets/perfil-3.svg" alt="pacient" class="pacient_img" />
+        <section class="pacient_data">
+          <h3 class="pacient_name">Larissa Santana</h3>
+          <p class="consulta_type">
+            <img src="./Assets/pin.svg" alt="camera" class="type_img" />Consulta
+            no local
+          </p>
+        </section>
+        <img src="./Assets/Chatcirculo1.svg" alt="chatbox" />
+      </section>
+      <section class="answer_buttons">
+        <h3 class="time">16:00 - 17:00 (1 hora)</h3>
+        <section class="buttons">
+          <a href="#" class="answer_address">Ver endereço</a>
+        </section>
+      </section>
+      <section class="box_pacient">
+        <img src="./Assets/perfil-4.svg" alt="pacient" class="pacient_img" />
+        <section class="pacient_data">
+          <h3 class="pacient_name">Marcos Correia</h3>
+          <p class="consulta_type">
+            <img
+              src="./Assets/Camera.svg"
+              alt="camera"
+              class="type_img"
+            />Consulta remota
+          </p>
+        </section>
+        <img src="./Assets/Chatcirculo1.svg" alt="chatbox" />
+      </section>
+      <section class="answer_buttons">
+        <h3 class="time">17:20 - 18:40 (1 hora)</h3>
+        <section class="buttons">
+          <a href="#" class="answer_video">Ligar por vídeo</a>
+          <a href="#" class="answer_audio">Ligar por áudio</a>
+        </section>
+      </section>
+    </div>
+    <h2 class="day">Amanhã</h2>
+    <div class="main_today">
+      <section class="box_pacient">
+        <img src="./Assets/perfil-5.svg" alt="pacient" class="pacient_img" />
+        <section class="pacient_data">
+          <h3 class="pacient_name">Luciana Dias</h3>
+          <p class="consulta_type">
+            <img
+              src="./Assets/Camera.svg"
+              alt="camera"
+              class="type_img"
+            />Consulta remota
+          </p>
+        </section>
+        <img src="./Assets/Chatcirculo1.svg" alt="chatbox" />
+      </section>
+      <section class="answer_buttons">
+        <h3 class="time">14:00 - 15:00 (1 hora)</h3>
+        <section class="buttons">
+          <a href="#" class="answer_video">Ligar por vídeo</a>
+          <a href="#" class="answer_audio">Ligar por áudio</a>
+        </section>
+      </section>
+      <section class="box_pacient">
+        <img src="./Assets/perfil-3.svg" alt="pacient" class="pacient_img" />
+        <section class="pacient_data">
+          <h3 class="pacient_name">Larissa Santana</h3>
+          <p class="consulta_type">
+            <img src="./Assets/pin.svg" alt="camera" class="type_img" />Consulta
+            no local
+          </p>
+        </section>
+        <img src="./Assets/Chatcirculo1.svg" alt="chatbox" />
+      </section>
+      <section class="answer_buttons">
+        <h3 class="time">16:00 - 17:00 (1 hora)</h3>
+        <section class="buttons">
+          <a href="#" class="answer_address">Ver endereço</a>
+        </section>
+      </section>
+      <section class="box_pacient">
+        <img src="./Assets/perfil-4.svg" alt="pacient" class="pacient_img" />
+        <section class="pacient_data">
+          <h3 class="pacient_name">Marcos Correia</h3>
+          <p class="consulta_type">
+            <img
+              src="./Assets/Camera.svg"
+              alt="camera"
+              class="type_img"
+            />Consulta remota
+          </p>
+        </section>
+        <img src="./Assets/Chatcirculo1.svg" alt="chatbox" />
+      </section>
+      <section class="answer_buttons">
+        <h3 class="time">17:20 - 18:40 (1 hora)</h3>
+        <section class="buttons">
+          <a href="#" class="answer_video">Ligar por vídeo</a>
+          <a href="#" class="answer_audio">Ligar por áudio</a>
+        </section>
+      </section>
+    </div>
   </body>
 </html>
