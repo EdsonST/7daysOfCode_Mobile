@@ -47,6 +47,10 @@ Durante 7 dias, recebi desafios diários com foco em:
 
 ---
 
+## 🖼️ Prévia do Projeto
+
+![prévia](./Assets/project2.png)
+
 ## 📢 Como rodar o projeto
 
 Clone este repositório:
