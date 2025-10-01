@@ -41,7 +41,7 @@ Durante 7 dias, recebi desafios diários com foco em:
 - [x] Dia 2 - Cabeçalho e lista de consultas (versão Mobile First)
 - [x] Dia 3 - Flexbox e alinhamentos
 - [x] Dia 4 - Grid layout
-- [ ] Dia 5 - Componentes visuais e responsividade
+- [x] Dia 5 - Componentes visuais e responsividade
 - [ ] Dia 6 - Ajustes finais de design
 - [ ] Dia 7 - Revisão e publicação
 
