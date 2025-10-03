@@ -43,7 +43,7 @@ Durante 7 dias, recebi desafios diários com foco em:
 - [x] Dia 4 - Grid layout
 - [x] Dia 5 - Componentes visuais e responsividade
 - [x] Dia 6 - Ajustes finais de design
-- [ ] Dia 7 - Revisão e publicação
+- [x] Dia 7 - Revisão e publicação
 
 ---
 
